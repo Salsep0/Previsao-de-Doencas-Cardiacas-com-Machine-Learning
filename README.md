@@ -41,7 +41,7 @@ O dataset contém informações de pacientes com as seguintes características:
 | Modelo | Acurácia | Precisão | Recall | F1-Score |
 |--------|----------|----------|--------|----------|
 | Regressão Logística | 0.65 | 0.63 | 0.61 | 0.61  |
-| Random Forest | 0.62 | 0.60 | 0.87 | 0.57 | 0.56 |
+| Random Forest | 0.62 | 0.60 | 0.57 | 0.56 |
 
 ### Variáveis Mais Importantes (Random Forest)
 1. **thalach** - Frequência cardíaca máxima
