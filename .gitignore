@@ -1,0 +1,46 @@
+# Arquivos do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Ambiente virtual
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Dataset (se for grande)
+data/raw/
+*.csv
+
+# Modelos salvos
+models/*.pkl
+
+# Logs
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
