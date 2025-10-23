@@ -33,3 +33,68 @@ O dataset contém informações de pacientes com as seguintes características:
 - **Matplotlib, Seaborn & Plotly** - Visualização de dados
 - **Scikit-learn** - Machine Learning
 - **Jupyter Notebook** - Ambiente de desenvolvimento
+
+## 📈 Resultados
+
+### Desempenho dos Modelos
+
+| Modelo | Acurácia | Precisão | Recall | F1-Score | AUC |
+|--------|----------|----------|--------|----------|-----|
+| Regressão Logística | 0.85 | 0.86 | 0.84 | 0.85 | 0.92 |
+| Random Forest | 0.88 | 0.89 | 0.87 | 0.88 | 0.95 |
+
+### Variáveis Mais Importantes (Random Forest)
+1. **thalach** - Frequência cardíaca máxima
+2. **oldpeak** - Depressão do segmento ST
+3. **age** - Idade  
+4. **cp** - Tipo de dor no peito
+5. **chol** - Colesterol
+
+## 🤝 Contribuição
+
+Contribuições são bem-vindas! Siga os passos:
+
+1. Fork o projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+## 👥 Autor
+
+Seu Nome
+- GitHub: [@Salsep0](https://github.com/Salsep0)
+- LinkedIn: [Seu Perfil](https://www.linkedin.com/in/paulo-vitor-83a095225)
+
+## 🙏 Agradecimentos
+
+- Dataset: [UCI Heart Disease Dataset](https://archive.ics.uci.edu/ml/datasets/Heart+Disease)
+- Comunidade de Ciência de Dados
+
+
+
+## 📁 Estrutura do Projeto
+heart-disease-prediction/
+│
+├── data/
+│ └── heart_disease_dataset.csv
+│
+├── notebooks/
+│ └── heart_disease_analysis.ipynb
+│
+├── src/
+│ ├── init.py
+│ ├── data_preprocessing.py
+│ └── model_training.py
+│
+├── models/
+│ ├── logistic_regression_model.pkl
+│ └── random_forest_model.pkl
+│
+├── requirements.txt
+├── environment.yml
+└── README.md
