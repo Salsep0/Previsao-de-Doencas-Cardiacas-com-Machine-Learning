@@ -38,10 +38,10 @@ O dataset contém informações de pacientes com as seguintes características:
 
 ### Desempenho dos Modelos
 
-| Modelo | Acurácia | Precisão | Recall | F1-Score | AUC |
-|--------|----------|----------|--------|----------|-----|
-| Regressão Logística | 0.85 | 0.86 | 0.84 | 0.85 | 0.92 |
-| Random Forest | 0.88 | 0.89 | 0.87 | 0.88 | 0.95 |
+| Modelo | Acurácia | Precisão | Recall | F1-Score |
+|--------|----------|----------|--------|----------|
+| Regressão Logística | 0.65 | 0.63 | 0.61 | 0.61  |
+| Random Forest | 0.62 | 0.60 | 0.87 | 0.57 | 0.56 |
 
 ### Variáveis Mais Importantes (Random Forest)
 1. **thalach** - Frequência cardíaca máxima
@@ -66,7 +66,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para de
 
 ## 👥 Autor
 
-Seu Nome
+Paulo a
 - GitHub: [@Salsep0](https://github.com/Salsep0)
 - LinkedIn: [Seu Perfil](https://www.linkedin.com/in/paulo-vitor-83a095225)
 
